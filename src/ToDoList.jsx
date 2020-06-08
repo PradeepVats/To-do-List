@@ -19,6 +19,7 @@ const ToDoList = () => {
     <>
       <div className="main_div">
         <div className="center_div">
+          <h1 className="h1"> Incr & Decr Counter </h1>
           <h1 className="h1"> {num} </h1>
           <div className="btn_div">
             <button className="button" onClick={incNum}> <AddIcon /> </button>
